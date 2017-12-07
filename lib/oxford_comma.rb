@@ -1,4 +1,4 @@
-new_array = [array.pop]
+
 def oxford_comma(array)
 
 if array.count > 2
