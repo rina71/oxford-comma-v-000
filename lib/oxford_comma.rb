@@ -7,5 +7,5 @@ array.pop
 else
   array.join(" and ")
 end
-
+puts array.inspect
 end
