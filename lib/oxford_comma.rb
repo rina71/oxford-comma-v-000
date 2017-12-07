@@ -1,7 +1,7 @@
 
 def oxford_comma(array)
-array.pop
-new_array = [array.inspect]
+
+new_array = [array.pop.inspect]
 if array.count > 2
 new_array.join(", ") << " ,and " << array.last
 
