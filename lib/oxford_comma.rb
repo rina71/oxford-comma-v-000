@@ -8,5 +8,5 @@ new_array.join(", ") << " ,and " << array.last
 else
   array.join(" and ")
 end
- 
+
 end
