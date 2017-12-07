@@ -1,7 +1,7 @@
 def oxford_comma(array)
 
 if array.count > 2
-  array = array.pop
+  # array = array.pop
   array.join(", ") << " and, " << array.last
 else
   array.join(" and ")
