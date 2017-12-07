@@ -1,3 +1,3 @@
 def oxford_comma(array)
-arry.join
+array.join
 end
