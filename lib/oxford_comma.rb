@@ -1,7 +1,8 @@
-def oxford_comma(array)
 new_array = [array.pop]
+def oxford_comma(array)
+
 if array.count > 2
-# new_array = [array.pop]
+
 new_array.join(", ") << " ,and " << array.last
 else
   array.join(" and ")
